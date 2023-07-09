@@ -1,5 +1,4 @@
 var j = 0;
-//Function for live Rendering
 function update(i) {
 	if (i == 0) {
 		let htmlCode = document.getElementById("htmlCode").value;
@@ -33,7 +32,7 @@ htmlCode.addEventListener('input', function (e) {
 	if (j != 1) {
 		const pos = e.target.selectionStart;
 		const val = [...e.target.value];
-		const char = val.slice(pos - 1, pos)[0];
+		const char = val.slice(pos - 1, pos)[0];// suppose (
 		const closeChar = closeChars.get(char);
 		if (closeChar) {
 			val.splice(pos, 0, closeChar);

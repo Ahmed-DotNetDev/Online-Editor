@@ -1,3 +1,4 @@
+// This function is from ChatGPT
 function saveFile() {
     var fileName = prompt("What is the name of file?", "");
     if (fileName != null && (document.getElementById("htmlCode").value != "" || document.getElementById("cssCode").value != "" || document.getElementById("javascriptCode").value != "")) {
