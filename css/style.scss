@@ -35,7 +35,7 @@ body {
         color: $color_1;
 
         &:focus {
-            outline: none;
+            border: 3px solid #50f0ff;
             color: $color_1;
         }
     }
@@ -69,11 +69,19 @@ body {
 }
 
 #btn {
-    background: #0df073;
+    background: #13a052;
     color: $color_1;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     width: 100px;
     height: 50px;
     margin: 0 auto;
-    border: none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    outline: none;
+
+    &:hover {
+        cursor: pointer;
+        transition: .2s ease-in-out;
+        background-color: #0dd868;
+    }
 }
