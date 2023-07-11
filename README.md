@@ -7,7 +7,7 @@
 
 ## HTML demo
 ```html
-<h1 onclick="changeColor('blue');">Hello</h1>
+<h1 onclick="changeColor('blue');" id="para">Hello</h1>
 ```
 ## CSS demo
 ```css
