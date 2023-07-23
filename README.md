@@ -5,17 +5,17 @@
 ## Idea of application 🤔
 - This app manage user to write HTML and CSS and javascript in separated text area and reflect it on the side frame and can save this code too
 
-## HTML demo
+## HTML demo 📑
 ```html
 <h1 onclick="changeColor('blue');" id="para">Hello</h1>
 ```
-## CSS demo
+## CSS demo 📑
 ```css
 h1{
 color:red;
 }
 ```
-## Javascript demo
+## Javascript demo 📑
 ```js
 function changeColor(newColor) {
   const elem = document.getElementById("para");
