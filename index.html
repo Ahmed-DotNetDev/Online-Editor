@@ -14,9 +14,12 @@
 
 <body>
     <div class="container split">
-        <button id="btn" onclick="saveFile()">
-            Save File
-        </button>
+        <div class="main">
+            <img src="images/editor icon.jpg" alt="editor icon" class="logo" title="Editor Logo">
+            <button id="btn" onclick="saveFile()">
+                Save File
+            </button>
+        </div>
         <textarea id="htmlCode" placeholder="Type HTML code here" spellcheck="false" oninput="update(0)"
             onkeydown="if(event.keyCode===9){var v=this.value,s=this.selectionStart,e=this.selectionEnd;this.value=v.substring(0, s)+'\t'+v.substring(e);this.selectionStart=this.selectionEnd=s+1;return false;}if(event.keyCode==8){update(1);}"></textarea>
         <textarea id="cssCode" placeholder="Type CSS code here" spellcheck="false" oninput="update(0)"

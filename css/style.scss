@@ -14,6 +14,27 @@ body {
     display: flex;
 }
 
+.logo {
+    width: 50px;
+    border-radius: 999px;
+    border: none;
+    outline: none;
+
+    &:hover {
+        outline: 2px solid #0dd868;
+        transition: .2s ease-in-out;
+        transform: scale(1.04);
+    }
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
 .container {
     background: #E7E7E7;
     display: flex;
@@ -78,6 +99,7 @@ body {
     border-radius: 10px;
     letter-spacing: 1px;
     outline: none;
+    margin-right: 30px;
 
     &:hover {
         cursor: pointer;
