@@ -12,6 +12,7 @@ $background-color_1: #121212;
 body {
     height: 100vh;
     display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .logo {
@@ -21,9 +22,9 @@ body {
     outline: none;
 
     &:hover {
-        outline: 2px solid #0dd868;
-        transition: .2s ease-in-out;
-        transform: scale(1.04);
+        outline: 3px solid #0dd868;
+        transition: .1s ease-in-out;
+        transform: scale(1.0004);
     }
 
 }
@@ -90,20 +91,22 @@ body {
 }
 
 #btn {
-    background: #13a052;
-    color: $color_1;
-    font-size: 1.3rem;
-    width: 100px;
-    height: 50px;
-    margin: 0 auto;
-    border-radius: 10px;
-    letter-spacing: 1px;
-    outline: none;
-    margin-right: 30px;
+    background-color: #28a745;
+    /* Green background color */
+    color: #fff;
+    /* White text color */
+    padding: 10px 20px;
+    /* Padding for the button */
+    border: none;
+    /* No border */
+    border-radius: 4px;
+    /* Rounded corners */
+    cursor: pointer;
+    margin: 2px;
 
     &:hover {
         cursor: pointer;
         transition: .2s ease-in-out;
-        background-color: #0dd868;
+        background-color: #218838;
     }
 }
