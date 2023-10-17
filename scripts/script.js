@@ -5,7 +5,7 @@ function saveFile() {
         var htmlCode = document.getElementById('htmlCode').value;
         var cssCode = document.getElementById('cssCode').value;
         var javascriptCode = document.getElementById('javascriptCode').value;
-        let text = "<html>" + "<head>" + "</head>" + "<body>"+htmlCode+"<style>"+ cssCode +"</style>"+ "<scri" + "pt>" + javascriptCode + "</scri" + "pt>"+"</body>" + "</html>";
+        let text = "<html>" + "<head>" + "</head>" + "<body>" + htmlCode + "<style>" + cssCode + "</style>" + "<scri" + "pt>" + javascriptCode + "</scri" + "pt>" + "</body>" + "</html>";
         download(text, fileName + ".txt", "text/plain");
     }
     else {

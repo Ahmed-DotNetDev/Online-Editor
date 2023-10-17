@@ -79,3 +79,8 @@ javascriptCode.addEventListener('input', function (e) {
 });
 
 Split([".container", ".iframe-container"]);
+
+
+function goProfile() {
+	window.location.href = "https://github.com/Ahmed-DotNetDev";
+}
